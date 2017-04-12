@@ -51,7 +51,7 @@ public class Main {
             t = scnr.nextLine();
             if ("n".equalsIgnoreCase(t))
             {
-                break;
+                flag = false;
             }
             else if ("y".equalsIgnoreCase(t))
             {
@@ -59,7 +59,7 @@ public class Main {
                 i = scnr.nextInt();
             }
 
-        } while (flag = true);
+        } while (flag == true);
 
         return;
 

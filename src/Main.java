@@ -46,6 +46,7 @@ public class Main {
 
         do {
             ReturnStatements(i, name);
+            scnr.nextLine();
             System.out.println("Would you like to test another int? (y/n)?");
             t = scnr.nextLine();
             if ("n".equalsIgnoreCase(t))
